@@ -10,24 +10,13 @@
 }
 
 header {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    width: 100%;
-    flex-wrap: wrap;
-    display: inline-block;
-
-    display: inline-flex;
-    text-align: justify;
-    text-justify: inter-word;
-    flex-wrap: wrap;
-    padding: 10px 10px;
 }
 
 .logo {
-    padding-top: 18px;
     color: #2E2F42;
     font-family: Raleway, sans serif;
     font-size: 18px;
@@ -36,7 +25,7 @@ header {
     line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    padding-right: 36px;
+    padding-right: 76px;
 
 }
 
@@ -46,7 +35,7 @@ header {
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    padding-left: 30px;
+    padding-left: 156px;
 
 }
 
@@ -54,98 +43,86 @@ body {
     font-family: "roboto", sans-serif;
 }
 
-.head {}
-
-.head-info {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
+.toraul {
     list-style: none;
-    gap: 40px;
-    text-align: center;
-
-    justify-content: center;
-}
-
-.stratsvg {
-    text-align: center;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.p {
-    text-align: center;
+    padding-left: 0;
     display: flex;
-    flex-wrap: wrap;
+    gap: 40px;
+    text-align: left;
+
 }
 
 .toraulin {
-    width: 100%;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
     list-style: none;
     padding-left: 0;
+    display: flex;
     padding-top: 122px;
     padding-bottom: 122px;
     gap: 40px;
     align-items: center;
-    text-align: center;
+    text-align: left;
     justify-content: center;
     background-color: cloud;
 }
 
-.costumerin {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.infomail {
-    margin-right: 30px;
-    gap: 80px;
-    padding: 10px 180px;
-}
-
-.mailf {
-    padding-left: 240px;
-    margin-left: 60px;
-}
-
-.mailinfo {
-    margin-right: 10px;
-}
-
 .textdesign {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
+    text-align: left;
 }
+
+
 
 .toraulin p {
     text-align: center;
 }
+
 
 .markguerrero {
     height: 260px;
     width: 264px;
 }
 
+
+
+
+
+
+
+.dos {
+    display: flex;
+}
+
+
+
 head:hover {
     color: rgb(129, 5, 102);
 
 }
 
-.info-mail {
 
+.uno {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.dos {
+    align-items: center;
+}
+
+
+.mai {
+    margin-left: 940px;
     gap: 40px;
 
 }
 
-.info-tel {
+.tee {
     margin-left: 40px;
-    text-align: center;
+}
+
+.tel {
+    text-align: right
 }
 
 
@@ -172,35 +149,14 @@ a {
 }
 
 h2 {
-    display: flex;
-    flex-wrap: wrap;
     text-align: center;
     font-size: 56px;
     font-family: roboto, sans serif;
     font-style: normal;
-
-}
-
-.hero {
-    text-align: center;
-    justify-content: center;
-
 }
 
 h3 {
-    display: flex;
-    flex-wrap: wrap;
     text-align: center;
-    color: #2E2F42;
-    font-family: roboto, sans serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    letter-spacing: .4px;
-    text-align: center;
-    justify-content: center;
-
-
 }
 
 button {
@@ -218,24 +174,23 @@ button:hover {
 
 }
 
-.strat {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-wrap: wrap;
-    width: 100%;
-    gap: 8px;
-}
 
 .stratcom {
-    display: flex;
-    flex-wrap: wrap;
     font-family: roboto, sans serif;
     font-style: normal;
     text-decoration: none;
-    text-wrap: wrap;
-    justify-content: center;
-    width: 100%;
+
+}
+
+h3 {
+    color: #2E2F42;
+    font-family: roboto, sans serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .4px;
+    text-align: center;
+
 
 }
 
@@ -246,7 +201,6 @@ button:hover {
     font-style: normal;
     font-weight: 700;
     text-align: center;
-    justify-content: center;
 }
 
 .team {
@@ -257,8 +211,6 @@ button:hover {
     font-weight: 700;
     text-align: center;
     padding-top: 120px;
-    width: 100%;
-    justify-content: center;
 }
 
 .logo2 span {
@@ -310,10 +262,6 @@ button:hover {
 }
 
 .faceicon {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     background-color: var(--iris);
     padding: 19px;
     border-radius: 50%;
@@ -360,7 +308,6 @@ Costumer Area .cosicon {
     display: inline-flex;
     align-items: flex-start;
     display: flex;
-    flex-wrap: wrap;
     padding-top: 122px;
     padding-bottom: 122px;
     gap: 40px;
@@ -393,13 +340,6 @@ Costumer Area .cosicon {
     fill: var(--iris);
 }
 
-
-
-
-
-/* active blue bar */
-
-
 .active {
     color: var(--ocean);
 }
@@ -411,7 +351,7 @@ Costumer Area .cosicon {
     width: 100%;
     border-radius: 2px;
     background-color: var(--iris);
-    bottom: -26.5px;
+    bottom: -18px;
     position: relative;
     left: 0;
 }
@@ -604,12 +544,7 @@ footer {
     display: flex;
     text-decoration: none;
     align-items: center;
-    width: 100%;
-    justify-content: center;
-    display: flex;
-    ;
 }
-
 
 footer .toraulin {
     padding-top: 0;
@@ -631,18 +566,6 @@ footer .iconstwo {
 }
 
 .media {
-    display: flex;
-    flex-wrap: wrap;
-    color: cloud#2E2F42;
-    font-family: roboto, sans serif;
-    font-style: normal;
-    font-weight: 700;
-    text-align: left;
-    text-align: left;
-
-}
-
-.mediaf {
     color: cloud#2E2F42;
     font-family: roboto, sans serif;
     font-style: normal;
@@ -650,23 +573,7 @@ footer .iconstwo {
     text-align: left;
     margin-left: 300px;
     text-align: left;
-}
 
-.socmedf {
-    color: var(--white);
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    text-align: left;
-    margin-left: 0px;
-
-}
-
-.mainindx {
-    font-size: 100%;
-    display: inline;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .socmed {
@@ -674,8 +581,7 @@ footer .iconstwo {
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
-    text-align: center;
-    margin: 10px 20px;
+    text-align: left;
 
 
 }
@@ -709,7 +615,9 @@ footer .iconstwo {
     gap: 10px;
 }
 
-
+.containerf {
+    display: flex;
+}
 
 
 
@@ -717,64 +625,43 @@ footer .iconstwo {
 
 
 /* Portfolio Are  */
-/* HEADER */
 
-.head-logo {
-    border-bottom: 1px solid var(--cornflower);
+
+.unof {
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
     box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
     display: inline-block;
-    justify-content: center;
-    display: inline-flex;
-    text-align: justify;
-    text-justify: inter-word;
-    flex-wrap: wrap;
-    padding: 10px 10px;
 
 }
 
-.header-info {
-    display: flex;
-    flex-wrap: wrap;
+.dosf {
     display: inline-block;
     justify-content: center;
     display: inline-flex;
-    text-align: justify;
-    text-justify: inter-word;
+    align-items: flex-start;
     flex-wrap: wrap;
-    padding: 10px 10px;
+    padding: 20px 10px;
 }
 
 .projectbut {
-    flex-wrap: wrap;
-    justify-content: center;
-    display: flex;
     text-align: center;
     border-radius: 4px;
-    width: 100%;
-
-
 }
 
 .buttonf {
 
     text-align: center;
-
-
     /* Button Text */
-
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 100%;
+    line-height: 24px;
     /* 150% */
-    letter-spacing: 20%;
+    letter-spacing: 0.64px;
     padding: 12px 24px;
-    margin: 50px 30px;
+    margin: 70px 50px;
     color: var(--iris);
     border-radius: 4px;
     background: var(--CLOUD, #F4F4FD);
@@ -788,7 +675,7 @@ footer .iconstwo {
 }
 
 
-.flist {
+.list {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
@@ -805,7 +692,7 @@ footer .iconstwo {
 
 }
 
-.flista {
+.lista {
     width: 360px;
     overflow: hidden;
 
@@ -819,10 +706,9 @@ footer .iconstwo {
 .projectimg {
     position: relative;
     overflow: hidden;
-    text-align: left
 }
 
-.flista:hover .projectimgcaption {
+.lista:hover .projectimgcaption {
     opacity: 1;
     transform: translateY(0);
 
@@ -857,24 +743,14 @@ footer .iconstwo {
 
 }
 
-.containerf {
-    width: 100%;
+.container {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     display: inline-flex;
     align-items: flex-start;
-    font-size: 100%;
-    text-align: left;
-
-}
-
-
-.footcontainer {
-    display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+
 }
 
 .footer-sub {
